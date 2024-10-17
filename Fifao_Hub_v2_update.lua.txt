@@ -5,8 +5,8 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 local Window = Fluent:CreateWindow({
     --ai skid thì nhớ đổi tên =)
     --táo hub , aniee hub :>
-    Title = "NINO Hub",
-    SubTitle = "Version 2",
+    Title = "Cheems Hub",
+    SubTitle = "No Pro 2",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -15,14 +15,14 @@ local Window = Fluent:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main Farm", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting Farming", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Travel", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
+    Setting = Window:AddTab({ Title = "Cài Đặt Farming", Icon = "settings" }),
+    Stats = Window:AddTab({ Title = "Nâng Điểm", Icon = "plus-circle" }),
+    Player = Window:AddTab({ Title = "Người Chơi", Icon = "baby" }),
+    Teleport = Window:AddTab({ Title = "Dịch Chuyển", Icon = "palmtree" }),
+    Fruit = Window:AddTab({ Title = "Trái", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Buy Items", Icon = "shopping-cart" }),
+    Race = Window:AddTab({ Title = "Tộc V4", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Mua Items", Icon = "shopping-cart" }),
 	Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "list-plus" }),
     Hop = Window:AddTab({ Title = "Hop", Icon = "wifi" }),
 }
@@ -746,8 +746,8 @@ end
 function CheckBossQuest()
 if First_Sea then
 if SelectBoss == "The Gorilla King" then
-BossMon = "The Gorilla King"
-NameBoss = 'The Gorrila King'
+BossMon = "Khỉ Con "
+NameBoss = 'Khỉ Con '
 NameQuestBoss = "JungleQuest"
 QuestLvBoss = 3
 RewardBoss = "Reward:\n$2,000\n7,000 Exp."
@@ -762,8 +762,8 @@ RewardBoss = "Reward:\n$8,000\n35,000 Exp."
 CFrameQBoss = CFrame.new(-1140.1761474609, 4.752049446106, 3827.4057617188)
 CFrameBoss = CFrame.new(-1087.3760986328, 46.949409484863, 4040.1462402344)
 elseif SelectBoss == "The Saw" then
-BossMon = "The Saw"
-NameBoss = 'The Saw'
+BossMon = "Cá Mập"
+NameBoss = 'Cá Mập '
 CFrameBoss = CFrame.new(-784.89715576172, 72.427383422852, 1603.5822753906)
 elseif SelectBoss == "Yeti" then
 BossMon = "Yeti"
@@ -979,15 +979,15 @@ QuestLvBoss = 3
 RewardBoss = "Reward:\n$30,000\n112,500,000 Exp."
 CFrameQBoss = CFrame.new(-819.376709, 64.9259796, -10967.2832, -0.766061664, 0, 0.642767608, 0, 1, 0, -0.642767608, 0, -0.766061664)
 CFrameBoss = CFrame.new(-678.648804, 381.353943, -11114.2012, -0.908641815, 0.00149294338, 0.41757378, 0.00837114919, 0.999857843, 0.0146408929, -0.417492568, 0.0167988986, -0.90852499)
-elseif SelectBoss == "Longma" then
+elseif SelectBoss == "Longma Bắc Giang " then
 BossMon = "Longma"
 NameBoss = 'Longma'
 CFrameBoss = CFrame.new(-10238.875976563, 389.7912902832, -9549.7939453125)
-elseif SelectBoss == "Soul Reaper" then
+elseif SelectBoss == "Người Sương" then
 BossMon = "Soul Reaper"
 NameBoss = 'Soul Reaper'
 CFrameBoss = CFrame.new(-9524.7890625, 315.80429077148, 6655.7192382813)
-elseif SelectBoss == "rip_indra True Form" then
+elseif SelectBoss == "Rip_inder ngu" then
 BossMon = "rip_indra True Form"
 NameBoss = 'rip_indra True Form'
 CFrameBoss = CFrame.new(-5415.3920898438, 505.74133300781, -2814.0166015625)
