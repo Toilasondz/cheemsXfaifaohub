@@ -1,13 +1,9 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
---------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     --ai skid thì nhớ đổi tên =)
     --táo hub , aniee hub :>
     Title = "Cheems Hub",
     SubTitle = "No Pro 2",
-    TabWidth = 160,
+    TabWidth = 180,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
@@ -86,7 +82,7 @@ First_Sea = false
 Second_Sea = false
 Third_Sea = false
 local placeId = game.PlaceId
-if placeId == 2753915549 then
+if placeId == 129189866470867 then
 First_Sea = true
 elseif placeId == 4442272183 then
 Second_Sea = true
