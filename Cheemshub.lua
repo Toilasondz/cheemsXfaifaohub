@@ -23,7 +23,7 @@ local Tabs = {
     Fruit = Window:AddTab({ Title = "Trái", Icon = "apple" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Tộc V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Mua Items", Icon = "shopping-cart" }),
+    Shop = Window:AddTab({ Title = "Shoppe", Icon = "shopping-cart" }),
 	Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "list-plus" }),
     Hop = Window:AddTab({ Title = "Hop", Icon = "wifi" }),
 }
