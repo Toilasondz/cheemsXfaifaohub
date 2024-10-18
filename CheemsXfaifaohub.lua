@@ -6,8 +6,9 @@ local Window = Fluent:CreateWindow({
     --ai skid thì nhớ đổi tên =)
     --táo hub , aniee hub :>
     Title = "Cheems Hub",
-    SubTitle = "No Pro 2",
-    TabWidth = 180,
+    SubTitle = "By Hoàng Văn Sơn",
+    TabWidth = 200,
+		
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
@@ -86,7 +87,7 @@ First_Sea = false
 Second_Sea = false
 Third_Sea = false
 local placeId = game.PlaceId
-if placeId == 129189866470867 then
+if placeId == 2753915549 then
 First_Sea = true
 elseif placeId == 4442272183 then
 Second_Sea = true
