@@ -5,13 +5,6 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 local Window = Fluent:CreateWindow({
     --ai skid thì nhớ đổi tên =
 		--táo hub , aniee hub :>
-		game.StarterGui:SetCore(
-    "SendNotification",
-    {
-        Title = "Hoang Van Son",
-        Text = "Đang Load",
-        Duration = 5
-    })
     Title = "Cheems Hub",
     SubTitle = "By Hoàng Văn Sơn",
     TabWidth = 200,
